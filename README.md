@@ -3,7 +3,7 @@
 Compile-time string obfuscation for C++17 and C++20. One header, one macro, no dependencies, an old version of my private Xorstr.
 
 ```cpp
-#include "xorstr\_min.hpp"
+#include "xorstr.hpp"
 
 int main() {
     auto s = XorStr("secret");     // encrypted at compile time
@@ -33,7 +33,7 @@ Copy `xorstr\_min.hpp` into your project and include it. (Rename it to `xorstr.h
 prefer — nothing depends on the file name.)
 
 ```cpp
-#include "xorstr\_min.hpp"
+#include "xorstr.hpp"
 #include <cstdio>
 
 int main() {
